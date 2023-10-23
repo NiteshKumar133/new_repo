@@ -52,7 +52,7 @@
 }
 @media screen and (max-width:427px) and (min-width:376px){
     .project-image{
-        height: 230px;
+        height: 190px;
         width:80%;
     }
 }
