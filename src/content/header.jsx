@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
 import './header.css';
-import pic from './profile/WhatsApp Image 2023-10-12 at 11.34.07 PM.jpeg';
+import pic from './profile/WhatsApp_Image_2023-10-23_at_3.10.17_PM-removebg-preview.png';
 import TextTransition, { presets } from 'react-text-transition';
 export function Showprofile() {
   const TEXTS = ['Web Developer', 'Game Developer'];
