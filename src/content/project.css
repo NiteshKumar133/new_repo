@@ -53,12 +53,12 @@
 @media screen and (max-width:427px) and (min-width:376px){
     .project-image{
         height: 190px;
-        width:80%;
+        width:75%;
     }
 }
 @media screen and (max-width:769px) and (min-width:427px){
     .project-image{
         height: 50vw;
-        width:85%;
+        width:80%;
     }
 }
