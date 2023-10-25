@@ -8,12 +8,18 @@
    justify-content:space-around;
    z-index: 100;
 }
-.I-am-Full-stack-h1{
-  padding-right: 20px;
-  margin: 10px;
-}
 .I-am-Full-stack{
 margin: -10px 10px 0 10px;
+}
+.header-line{
+  /* border:2px solid red; */
+  width:100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px 10px;
+  gap:10px
 }
 
 .profile-pic{
@@ -24,25 +30,34 @@ margin: -10px 10px 0 10px;
     box-shadow: 1px 1px 10px black;
 }
 @media screen and (max-width:376px){
-  .I-am-Full-stack-h1, .I-am-Full-stack{
-  margin-left: 30px;
-  }
-  .I-am-Full-stack-h1{
-    width: 80%;
-  }
   .profile-pic{
     height:220px;
     width:220px; 
 }
+.hello-i-am{
+  margin: -7px;
+}
+.header-line{
+  width:80%;
+  margin: 0 30px;
+}
+.I-am-Full-stack{
+  margin: 7px 24px;
+  }
 }
 @media screen and (max-width:427px) and (min-width:376px){
+  .header-line{
+    width:80%;
+  }
+  .hello-i-am{
+  margin: -5px;
+}
+.I-am-Full-stack{
+  margin: 7px 6px;
+  }
   .profile-pic{
     height:220px;
     width:220px; 
-}
-.I-am-Full-stack-h1{
-margin: 10px;
-width:75%
 }
 }
 @media screen and (max-width:769px) and (min-width:427px){
@@ -50,4 +65,11 @@ width:75%
     height:220px;
     width:220px; 
 }
+.header-line{
+  width:96%;
+  margin: 0 40px;
+}
+.I-am-Full-stack{
+  margin: -5px 40px 10px;
+  }
 }
