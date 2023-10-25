@@ -18,7 +18,11 @@ export function Showprofile() {
     <div className='Showprofile'>
 
        <div className='show-about-name'>
-       <h1 className='I-am-Full-stack-h1'>Hello, I am Nitesh kumar</h1>
+        <div className='header-line'>
+        <h1 className='hello-i-am'>Hello,</h1>
+       <h1 className='hello-i-am'>I am Nitesh kumar</h1>
+        </div>
+       
        <h2 className='I-am-Full-stack'>I am a <span className='element' style={{color:"blue"}}><TextTransition springConfig={presets.wobbly} inline="true">{TEXTS[index % TEXTS.length]}</TextTransition></span></h2>
        </div>
 <img src={pic} className='profile-pic' alt="profile-pic"/>
