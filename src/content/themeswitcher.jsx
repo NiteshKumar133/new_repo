@@ -27,6 +27,7 @@ export default function Themeswitcher() {
       anotherText1.forEach((data,index)=>(
         <>
         {data.style.color="blue"}
+        {anotherText3[index].style.color="#0e5acb"}
         </>
       ))
       sPColor("#000000");
