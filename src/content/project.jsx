@@ -11,9 +11,9 @@ export default function Project() {
 {data.map((data1,index)=>{
     return (
       <div className='project-container' style={{flexDirection:index%2!==0&&'row-reverse'}}>
-        <div>
-        <h1>{data1.title}</h1>
-        <h2 className='data1-description'>{data1.description}</h2>
+        <div className='header-data-container'>
+        <h2 style={{textAlign:"center"}}>{data1.title}</h2>
+        <h4 className='data1-description'>{data1.description}</h4>
         {data1.tech.map((techImage, techIndex) => (
               <img
                 key={techIndex}
