@@ -28,7 +28,7 @@ const data = [{
 {
     "thumbnail":imageList[3],
     "title":"USA state game",
-    "description":"Count the state in USA",
+    "description":"Play the game based on the state in USA ",
     "live":true,
     "see_live":false,
     "code":'https://github.com/Niteshkumar13/us_state_guessing_game/tree/main',
