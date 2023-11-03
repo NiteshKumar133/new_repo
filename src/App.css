@@ -1,6 +1,6 @@
 body{
   /* rgba(50, 115, 220, 0.3) */
-background-color:#303058;
+background-color:rgba(50, 115, 220, 0.3) ;
 backdrop-filter: none;
   color:black;
   overflow-x: hidden;
