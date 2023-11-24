@@ -24,7 +24,7 @@ export function Showprofile() {
        
        <h2 className='I-am-Full-stack'>I am a <span className='element' style={{color:"blue"}}><TextTransition springConfig={presets.wobbly} inline="true">{TEXTS[index % TEXTS.length]}</TextTransition></span></h2>
        </div>
-<img src={'https://images.app.goo.gl/DpjEVuPQuhMM2mDj7'} className='profile-pic' alt="profile-pic"/>
+<img src='https://images.app.goo.gl/DpjEVuPQuhMM2mDj7' className='profile-pic' alt="profile-pic"/>
 
     </div>
   )
